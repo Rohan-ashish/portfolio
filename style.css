@@ -1,0 +1,155 @@
+/*TYPES OF CSS slector
+
+1.element selector
+
+2. class selector
+
+3.Id selector
+
+4.Pseudo selector
+*/
+
+*{
+   margin: 0px; 
+   padding: 10px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+
+
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
+    padding: 10px;
+    margin: 0;
+}
+
+h1{
+    color: black;
+    font-size: 15pt;
+    text-align:center;
+    padding: 18px 0 18px;
+    margin: 0 10px 0;
+}
+
+h1 span{
+    border: 4px dashed #c6ffdd;
+    padding: 10px;
+}
+
+.img-circle{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+
+header{
+    background-image: url('https://img.freepik.com/free-photo/portrait-attractive-latin-student-doing-some-school-work-with-laptop-library_662251-1218.jpg?w=2000');
+    background-size: cover;
+}
+
+#header img{
+    display:block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+#header h2{
+    font-size: 25pt;
+    color: #f7797d;
+    padding-top: 5px;
+margin: 0;
+text-align: center;
+
+}
+
+.quote{
+    font-size: 12pt;
+    text-align: right;
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+    font-size: 12pt;
+}
+
+table,th,td{
+    border: 2px solid #c6ffdd;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+.selected{
+    background-color: rgb(208, 62, 62);
+    font-weight: bold;
+    color: white;
+}
+li{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+progress{
+    width: 70%;
+    height: 20px;
+    color: blueviolet;
+    background: #efefef;
+}
+progress::-webkit-progress-bar{
+    color: #fbd786;
+
+}
+
+progress::-moz-progress-bar{
+    color: #fbd786;
+    background: white;
+}
+
+iframe,audio{
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #efefef;
+    padding:20px ;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background:#efefef;
+}
+form{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.section{
+    align-items: center;
+}
+
+
+
+.submit{
+    background-color: aquamarine;
+    padding: 12px 40px ;
+    border-radius: 5px;
+    cursor:pointer;
+    color:white;
+    font-weight: bold;
+}
+
+.submit:hover{
+    background-color: #fbd786;
+}
+
+textarea{
+    height: 100px;
+    align-items: center;
+}
+
+input, textarea{
+    margin-bottom: 10px;
+    font-size: 11pt;
+    padding: 15px 10px ;
+
+}
